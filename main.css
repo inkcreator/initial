@@ -17,6 +17,10 @@
   background-color: #000;
   border-radius: 30px;
 }
+.upper {
+  position: absolute;
+  padding-top: 20px;
+}
 .input {
   display: flex;
   justify-content: end;
