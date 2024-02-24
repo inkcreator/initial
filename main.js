@@ -8,7 +8,6 @@ btns.forEach((e, i) => {
     let LastCharAfterRemove = inputVal.slice(0, inputVal.length - 1);
     let LastChar = inputVal[inputVal.length - 1];
     let opr = ["+", "-", "/", "*"];
-
     if (e.innerHTML == "AC") {
       input.value = "";
     } else if (e.innerHTML == "=") {
